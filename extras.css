@@ -13,14 +13,21 @@ body {
 }
 
 .head-bar {
-	text-align: left;
-	color: black;
-	height: 100px;
-	width: 100px;
-	padding-top: 50px;
-	padding-left: 10px;
-	font-size: 25px;
-	text-transform: uppercase;
+    background-color: #00FFFF;
+    height: 45px;
+    line-height: 45px;
+    width: 300px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    #text-align: left;
+    #color: black;
+    #height: 45px;
+    #width: 300px;
+    #padding-top: 50px;
+    #line-height: 45px;
+    #font-size: 25px;
+    text-transform: uppercase;
+    
 }
 .page-title{
 	text-align: left;
@@ -39,8 +46,23 @@ body {
 	padding-left: 0px;
 	font-size: 10px;
 }
+.home {
+    padding-top: 276px;
+}
+.homebody{
+    margin-top:-226px;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+}
 
-ul {
+.homebody p
+{
+    font-style:normal;
+}
+
+.home-bar ul {
   list-style-type: none;
 
   padding-left: 0;
@@ -49,6 +71,18 @@ ul {
   overflow: hidden;
   background-color: #333;
   width: 300px;
+}
+
+.homebody ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size:15px;
+    padding-bottom: 5px;
+}
+.homebody li {
+    padding-bottom: 5px;
+    text-align:center;
+    float:none;
 }
 
 li {
