@@ -1,0 +1,75 @@
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	text-align: left;
+	color: black;
+	height: 100px;
+	width: 100px;
+	padding-top: 50px;
+	padding-left: 10px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.page-title{
+	text-align: left;
+	color: black;
+	height: 100px;
+	width: 200px;
+	padding-left: 10px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.home-bar{
+	color: black;
+	height: 20px;
+	width: 20px;
+	padding-top: 170px;
+	padding-left: 0px;
+	font-size: 10px;
+}
+
+ul {
+  list-style-type: none;
+
+  padding-left: 0;
+  margin-right: 20px;
+  margin-top: 170px;
+  overflow: hidden;
+  background-color: #333;
+  width: 300px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #673AB7;
+}
+
