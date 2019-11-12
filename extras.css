@@ -23,13 +23,24 @@ body {
 	text-transform: uppercase;
 }
 .page-title{
-	text-align: left;
+	text-align: center;
 	color: black;
-	height: 100px;
-	width: 200px;
-	padding-left: 10px;
-	font-size: 10px;
-	text-transform: uppercase;
+	height: 55px;
+	font-size: 13px;
+
+}
+.links{
+	color: black;
+	background: white;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	height: 120px;
+}
+
+.words{
+	font-size: 15px;
+
 }
 .home-bar{
 	color: black;
@@ -72,4 +83,3 @@ li a:hover {
 .active {
   background-color: #673AB7;
 }
-
