@@ -18,6 +18,19 @@ body {
 	font-size: 10px;
 	text-transform: uppercase;
 }
+.links{
+	color: black;
+	background: white;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	height: 120px;
+}
+
+.words{
+	font-size: 15px;
+
+}
 .home-bar{
     background-color: #333;
     overflow: hidden;
@@ -46,4 +59,3 @@ li a:hover {
 .active {
   background-color: #673AB7;
 }
-
