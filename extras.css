@@ -24,26 +24,32 @@ body {
 	text-align: center;
 	border-style: solid;
 	border-width: 1px;
-	height: 120px;
+	height: 80px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 5px;
+}
+
+.website {
+    margin-top: 5px;
 }
 
 .words{
-	font-size: 15px;
-
+	font-size: 12px;
+	padding-top: 1px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 .home-bar{
     background-color: #333;
-    overflow: hidden;
-    position: relative;
-    margin-top: 454px;
+    overflow: auto;
+    position: absolute;
+    bottom: 40px;
     width: 300px;
 }
 
-li {
+.home-bar a {
   float: left;
-}
-
-li a {
   display: block;
   color: white;
   text-align: center;
@@ -52,10 +58,10 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.home-bar a:hover {
   background-color: #111;
 }
 
-.active {
+.home-bar a.active {
   background-color: #673AB7;
 }
