@@ -10,23 +10,11 @@ body {
 	margin: 105px 23px;
 }
 
-.home-screen {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-.head-bar {
-	text-align: center;
-	color: #673AB7;
-	padding-left: 10px;
-	padding-top: 5px;
-	font-size: 15px;
-	text-transform: uppercase;
-}
 .page-title{
 	text-align: center;
 	color: #673AB7;
 	padding-left: 10px;
+	padding-top: 5px;
 	font-size: 10px;
 	text-transform: uppercase;
 }
@@ -34,8 +22,8 @@ body {
     background-color: #333;
     overflow: hidden;
     position: relative;
-    margin-top: 440;
-    width: 260px;
+    margin-top: 454px;
+    width: 300px;
 }
 
 li {
