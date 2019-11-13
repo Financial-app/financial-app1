@@ -19,13 +19,6 @@ body {
     width: 300px;
     text-align: center;
     text-shadow: 1px 1px white;
-    #text-align: left;
-    #color: black;
-    #height: 45px;
-    #width: 300px;
-    #padding-top: 50px;
-    #line-height: 45px;
-    #font-size: 25px;
     text-transform: uppercase;
     
 }
@@ -37,6 +30,17 @@ body {
 	padding-left: 10px;
 	font-size: 10px;
 	text-transform: uppercase;
+}
+.links {
+    color: black;
+    background: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    height: 120px;
+}
+.words {
+    font-size: 15px;
 }
 .home-bar{
 	color: black;
