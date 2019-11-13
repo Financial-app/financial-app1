@@ -17,6 +17,9 @@ body {
 	padding-top: 5px;
 	font-size: 10px;
 	text-transform: uppercase;
+	background-color: ##D8BFD8
+    text-shadow: 1px 1px white;
+
 }
 .links{
 	color: black;
@@ -32,6 +35,30 @@ body {
 
 .website {
     margin-top: 5px;
+}
+
+.homebody{
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+}
+
+.homebody p
+{
+    font-style:normal;
+}
+
+.homebody ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size:15px;
+    padding-bottom: 5px;
+}
+.homebody li {
+    padding-bottom: 5px;
+    text-align:center;
+    float:none;
 }
 
 .words{
