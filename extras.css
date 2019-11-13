@@ -14,10 +14,12 @@ body {
 	text-align: center;
 	color: #673AB7;
 	padding-left: 10px;
-	padding-top: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	font-size: 10px;
+	margin-bottom:2px;
 	text-transform: uppercase;
-	background-color: ##D8BFD8
+	background-color: #D8BFD8;
     text-shadow: 1px 1px white;
 
 }
@@ -41,6 +43,7 @@ body {
     font-style: italic;
     margin-left: 10px;
     margin-right: 10px;
+    padding-top: 5px;
     text-align:center;
 }
 
@@ -53,10 +56,9 @@ body {
     list-style-type: none;
     padding-left: 0;
     font-size:15px;
-    padding-bottom: 5px;
 }
 .homebody li {
-    padding-bottom: 5px;
+    padding-bottom: 4px;
     text-align:center;
     float:none;
 }
@@ -70,9 +72,9 @@ body {
 .home-bar{
     background-color: #333;
     overflow: auto;
-    position: absolute;
-    bottom: 40px;
     width: 300px;
+    position: relative;
+    bottom: -16%;
 }
 
 .home-bar a {
