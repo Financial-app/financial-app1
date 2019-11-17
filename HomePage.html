@@ -16,13 +16,27 @@
         <div class="homebody">
             "Our mission is to help young adults better understand the financial issues they will face"
             <p>-some cs kids</p>
-            <br />
-            <p>If you have any suggestions for the site or questions, please contact us at the emails below:</p>
-
-            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                <p id ="firstName">First Name:</p>
-                <input  type="text" name="firstName">
-                <p id ="firstName">Last Name:</p>
+            <p>If you have any suggestions for the site or questions, please contact us below:</p>
+            <form action="somecskids@gmail.com" method="post" enctype="text/plain">
+                <ul class="form-style-1">
+                    <li><label id="feildNames">Full Name <span class="required">*</span></label>
+                        <input type="text" name="first name" class="field-divided" placeholder="First" />
+                        <input type="text" name="last name" class="field-divided" placeholder="Last"/></li>
+                    <li><label id="feildNames">Email<span class="required">*</span></label>
+                    <input type="email" name="email" class="field-short" />
+                    </li>
+                    <li><label id="feildNames" >Phone Number<span class="required">*</span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
+                    </li>
+                    <li><label id="feildNames">Comments<span class="required">*</span></label>
+                        <textarea name="field5" id="comments" class="field-long field-textarea"></textarea>
+                    </li>
+                    <li><input type="submit" value="Submit" />
+                    </li>
+                </ul>
+                <!--
+                First Name:
+                <input type="text" name="firstName">
+                Last Name:
                 <input type="text" name="last name"><br>
                 E-mail:
                 <input id="email" type="text" name="phone"><br>
@@ -32,6 +46,7 @@
                 <input id ="comment" type="text" name="comment" size="30"><br>
                 <input type="submit" value="Send">
                 <input type="reset" value="Reset">
+                -->
             </form>
 
         </div>
