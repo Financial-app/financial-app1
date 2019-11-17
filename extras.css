@@ -94,3 +94,19 @@ body {
 .home-bar a.active {
   background-color: #673AB7;
 }
+
+.embedded-container {
+    position: relative;
+    width: 250px;
+    height: 355px;
+
+}
+
+.embedded-container iframe {
+    position: absolute;
+    align: center;
+    width: 275px;
+    height: 400px;
+    overflow-x: scroll;
+}
+
