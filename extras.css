@@ -58,7 +58,7 @@ body {
     font-size:15px;
 }
 .homebody li {
-    padding-bottom: 4px;
+    padding-bottom: 0px;
     text-align:center;
     float:none;
 }
@@ -93,4 +93,31 @@ body {
 
 .home-bar a.active {
   background-color: #673AB7;
+}
+form{
+    width: 300px;
+}
+input[type=text], select {
+    width: 15%;
+    padding: 0px 0px;
+    margin: 0px 0;
+    display: compact;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#phone{
+    width: 30%;
+}
+#email{
+    width: 30%;
+}
+#comment{
+    width: 60%;
+    height: 10%;
+}
+#firstName{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
 }
