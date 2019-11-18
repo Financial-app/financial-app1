@@ -58,7 +58,6 @@ body {
     font-size:15px;
 }
 .homebody li {
-    padding-bottom: 0px;
     text-align:center;
     float:none;
 }
@@ -95,6 +94,32 @@ body {
   background-color: #673AB7;
 }
 
+.home-bar2{
+    background-color: #333;
+    overflow: auto;
+    width: 300px;
+    position: relative;
+    bottom: -6%;
+}
+
+.home-bar2 a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.home-bar2 a:hover {
+  background-color: #111;
+}
+
+.home-bar2 a.active {
+  background-color: #673AB7;
+}
+
 input[type=text], select {
     width: 15%;
     padding: 0px 0px;
@@ -110,7 +135,7 @@ input[type=text], select {
 #email{
     width: 30%;
 }
-#feildNames{
+#fieldNames{
     text-align: left;
 }
 .form-style-1 {
