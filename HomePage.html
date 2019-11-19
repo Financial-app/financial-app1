@@ -2,6 +2,8 @@
 <head>
     <title>Homepage</title>
     <link rel="stylesheet" type="text/css" href="extras.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
 </head>
 <body>
 <div>
@@ -14,22 +16,46 @@
         <div class="homebody">
             "Our mission is to help young adults better understand the financial issues they will face"
             <p>-some cs kids</p>
-            <br />
-            <p>If you have any suggestions for the site, please contact us at the emails below:</p>
-            <ul>
-                <li>NicholasAndary2021@u.northwestern.edu</li>
-                <li>KatherineJohns2021@u.northwestern.edu</li>
-                <li>OliviaJurgiel2021@u.northwestern.edu</li>
-                <li>AnnPigott2021@u.northwestern.edu</li>
-            </ul>
+            <p>If you have any suggestions for the site or questions, please contact us below:</p>
+            <form action="mailto:somecskids@gmail.com" method="post" enctype="text/plain">
+                <ul class="form-style-1">
+                    <li><label id="fieldNames">Full Name <span class="required">*</span></label>
+                        <input type="text" name="first name" class="field-divided" placeholder="First" />
+                        <input type="text" name="last name" class="field-divided" placeholder="Last"/></li>
+                    <li><label id="fieldNames">Email<span class="required">*</span></label>
+                    <input type="email" name="email" class="field-short" />
+                    </li>
+                    <li><label id="fieldNames" >Phone Number<span class="required">*</span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
+                    </li>
+                    <li><label id="fieldNames">Comments<span class="required">*</span></label>
+                        <textarea name="field5" id="comments" class="field-long field-textarea"></textarea>
+                    </li>
+                    <li><input type="submit" value="Submit" />
+                    </li>
+                </ul>
+                <!--
+                First Name:
+                <input type="text" name="firstName">
+                Last Name:
+                <input type="text" name="last name"><br>
+                E-mail:
+                <input id="email" type="text" name="phone"><br>
+                Phone Number:
+                <input id="phone" type="text" name="mail"><br>
+                Comment:
+                <input id ="comment" type="text" name="comment" size="30"><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+                -->
+            </form>
         </div>
     </main>
-    <div class="home-bar">
+    <nav class="home-bar2">
         <a class="active" href="#home">Home</a>
         <a href="CreditCard.html">CC Info</a>
         <a href="TaxCalculator.html">Tax calc</a>
         <a href="CreditCard.html">Budget calc</a>
-    </div>
+    </nav>
 </div>
 </body>
 </html>
