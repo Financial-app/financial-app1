@@ -1,5 +1,4 @@
 body {
-	background-image: url("images/iphoneOL.jpg");
 	background-repeat: no-repeat;
 	font-family: Avenir, sans-serif;
     margin-top: 0px;
@@ -114,6 +113,10 @@ main {
     display: inline-block;
 }
 
+#result {
+    font-size: 80px;
+}
+
 /* Change the link color to #111 (black) on hover */
 .home-bar a:hover {
   background-color: #111;
@@ -124,7 +127,7 @@ main {
 }
 
 .inputHeader {
-    font-size: 40px;
+    font-size: 70px;
     text-align: left;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -174,6 +177,26 @@ input[type=number], select {
     width: 300px;
 }
 .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #D8BFD8;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+
+.form-style-2 {
+    margin-left: 100px;
+
+}
+
+.form-style-2 input[type=submit], .form-style-1 input[type=button]{
+    background: #673AB7;
+    padding: 8px 15px 8px 15px;
+    font-size: 70px;
+    color: #fff;
+    height: 100px;
+    width: 300px;
+}
+.form-style-2 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
     background: #D8BFD8;
     box-shadow:none;
     -moz-box-shadow:none;
