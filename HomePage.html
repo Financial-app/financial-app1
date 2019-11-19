@@ -6,7 +6,7 @@
           rel="stylesheet">
 </head>
 <body>
-<div id="screen">
+<div>
     <header>
         <div class="page-title">
             <h1>Financial Wellness</h1>
@@ -16,31 +16,36 @@
         <div class="homebody">
             "Our mission is to help young adults better understand the financial issues they will face"
             <p>-some cs kids</p>
-            <br />
-            <p>If you have any suggestions for the site or questions, please contact us at the emails below:</p>
-
-            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                <p id ="firstName">First Name:</p>
-                <input  type="text" name="firstName">
-                <p id ="firstName">Last Name:</p>
-                <input type="text" name="last name"><br>
-                E-mail:
-                <input id="email" type="text" name="phone"><br>
-                Phone Number:
-                <input id="phone" type="text" name="mail"><br>
-                Comment:
-                <input id ="comment" type="text" name="comment" size="30"><br>
-                <input type="submit" value="Send">
-                <input type="reset" value="Reset">
+            <p>If you have any suggestions for the site or questions, please contact us below:</p>
+            <form class="mainform" action="mailto:somecskids@gmail.com" method="post" enctype="text/plain">
+                <ul class="form-style-1">
+                    <li class="inputHeader">Full Name <span class="required">*</span>
+                        <br>
+                        <input type="text" name="first name" placeholder="First" />
+                        <input type="text" name="last name" placeholder="Last"/></li>
+                    <li class="inputHeader">Email<span class="required">*</span>
+                        <br>
+                        <input type="email" name="email" placeholder="Email"/>
+                    </li>
+                    <li class="inputHeader">Phone Number<span class="required">*</span>
+                        <br>
+                        <input type="number" value="" maxlength="4" placeholder="(XXX)"/>       -       <input type="number" value="" maxlength="4" placeholder="XXX" />       -       <input type="number" value="" maxlength="10" placeholder="XXXX"/></label>
+                    </li>
+                    <li class="inputHeader">Comments<span class="required">*</span>
+                        <br>
+                        <input type="comment" name="field5" placeholder="Your Comments"></input>
+                    </li>
+                    <li><input type="submit" value="SUBMIT" />
+                    </li>
+                </ul>
             </form>
-
         </div>
     </main>
     <nav class="home-bar">
         <a class="active" href="#home">Home</a>
         <a href="CreditCard.html">CC Info</a>
-        <a href="CreditCard.html">Tax calc</a>
-        <a href="CreditCard.html">Budget calc</a>
+        <a href="TaxCalculator.html">Tax calc</a>
+        <a href="BudgetCalculator.html">Budget calc</a>
     </nav>
 </div>
 </body>

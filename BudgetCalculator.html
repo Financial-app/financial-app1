@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Tax Calculator Page Page</title>
+    <link rel="stylesheet" type="text/css" href="extras.css" />
+    <script src="budgetcalc.js"></script>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="page-title">
+                <h1>Budget Calculator</h1>
+            </div>
+        </header>
+        <main>
+            <div class="taxwrapper">
+                <form class="mainform" id="taxform">
+                    <ul class="form-style-2">
+                        <li class="inputHeader">Enter Your current Savings ($): <input type="number" value="0" name="savings" id="savings"></li>
+                        <li class="inputHeader">Enter Your Weekly Income ($): <input type="number" value="0" name="income" id="income"></li>
+                        <li class="inputHeader">Enter Your Weekly Spending ($): <input type="number" value="0" name="spending" id="spending"></li>
+                        <input type="submit" onclick="calculatebudget();" value="Calculate Your Budget!" />
+                        <p><span id="result"></span></p>
+                    </ul>
+                </form>
+            </div>
+        </main>
+        <div class="home-bar">
+            <a href="HomePage.html">Home</a>
+            <a href="CreditCard.html">CC Info</a>
+            <a href="Taxcalculator.html">Tax Calc</a>
+            <a class='active' href="#home">Budget Calc</a>
+        </div>
+    </div>
+</body>
+</html>

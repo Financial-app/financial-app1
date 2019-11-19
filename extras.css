@@ -1,46 +1,54 @@
 body {
-	background-image: url("images/iphoneOL.jpg");
 	background-repeat: no-repeat;
 	font-family: Avenir, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
-#screen {
-	height: 530px;
-	width: 300px;
-	margin: 105px 23px;
+main {
+    height: 2315px;
+    width: 1500px;
 }
 
 .page-title{
 	text-align: center;
 	color: #673AB7;
-	padding-left: 10px;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	font-size: 10px;
-	margin-bottom:2px;
+	font-size: 30px;
+	margin-bottom:50px;
 	text-transform: uppercase;
 	background-color: #D8BFD8;
     text-shadow: 1px 1px white;
+    width: 1505px;
+    height: 150px;
 
 }
+
 .links{
 	color: black;
 	background: white;
 	text-align: center;
 	border-style: solid;
-	border-width: 1px;
-	height: 80px;
-	margin-top: 2px;
-	margin-bottom: 2px;
-	padding-top: 5px;
+	border-width: 4px;
+	float: center;
+	height: 280px;
+	width: 1300px;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .website {
     margin-top: 5px;
+    font-size: 60px;
 }
 
 .homebody{
     font-style: italic;
+    font-size: 80px;
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 5px;
@@ -58,23 +66,30 @@ body {
     font-size:15px;
 }
 .homebody li {
-    padding-bottom: 0px;
     text-align:center;
-    float:none;
+
 }
 
 .words{
-	font-size: 12px;
+	font-size: 50px;
 	padding-top: 1px;
 	margin-top: 2px;
 	margin-bottom: 2px;
+    margin-left: 10px;
 }
+
+/* Change the link color to #111 (black) on hover */
+
+#embeddedCalc {
+    zoom: 400%;
+}
+
 .home-bar{
     background-color: #333;
     overflow: auto;
-    width: 300px;
+    width: 1505px;
+    height: 150px;
     position: relative;
-    bottom: -16%;
 }
 
 .home-bar a {
@@ -82,8 +97,24 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 5px 5px;
+  padding: 5px 30px;
   text-decoration: none;
+  font-size: 80px;
+}
+
+/*tax calc*/
+
+.taxwrapper{
+    text-align:center;
+
+
+}
+.taxform {
+    display: inline-block;
+}
+
+#result {
+    font-size: 80px;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -94,30 +125,87 @@ body {
 .home-bar a.active {
   background-color: #673AB7;
 }
-form{
+
+.inputHeader {
+    font-size: 70px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+input[type=text], select {
+    display: compact;
+    border: 10px solid #ccc;
+    box-sizing: border-box;
+    height: 150px;
+    width: 500px;
+    font-size: 40px;
+}
+
+input[type=comment], select {
+    display: compact;
+    border: 10px solid #ccc;
+    box-sizing: border-box;
+    height: 150px;
+    width: 1015px;
+    font-size: 40px;
+}
+input[type=email], select {
+    display: compact;
+    border: 10px solid #ccc;
+    box-sizing: border-box;
+    height: 150px;
+    width: 1015px;
+    font-size: 40px;
+}
+
+input[type=number], select {
+    display: compact;
+    border: 10px solid #ccc;
+    box-sizing: border-box;
+    height: 150px;
+    width: 315px;
+    font-size: 40px;
+}
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #673AB7;
+    padding: 8px 15px 8px 15px;
+    font-size: 70px;
+    color: #fff;
+    height: 100px;
     width: 300px;
 }
-input[type=text], select {
-    width: 15%;
-    padding: 0px 0px;
-    margin: 0px 0;
-    display: compact;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #D8BFD8;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
 }
-#phone{
-    width: 30%;
+
+.form-style-2 {
+    margin-left: 100px;
+
 }
-#email{
-    width: 30%;
+
+.form-style-2 input[type=submit], .form-style-1 input[type=button]{
+    background: #673AB7;
+    padding: 8px 15px 8px 15px;
+    font-size: 70px;
+    color: #fff;
+    height: 100px;
+    width: 300px;
 }
-#comment{
-    width: 60%;
-    height: 10%;
+.form-style-2 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #D8BFD8;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
 }
-#firstName{
-    text-align: left;
-    padding: 0px;
-    margin: 0px;
+.form-style-1 .required{
+    color:red;
+}
+
+.mainform {
+    float: center;
 }
