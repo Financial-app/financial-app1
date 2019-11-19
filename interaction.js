@@ -1,9 +1,8 @@
 function validateForm() {
-    var x = document.forms["myForm"]["emailSend"].value;
-    if (x == "") {
-        alert("email must have conent");
+    var x = document.forms["myForm"]["first name"].value;
+    if (x == "" || x==null) {
+        alert("email must have content");
         return false;
-        text="no conetent";
     }
     else {
         text = "Input OK";
