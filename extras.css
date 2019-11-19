@@ -1,5 +1,5 @@
 body {
-
+	background-image: url("images/iphoneOL.jpg");
 	background-repeat: no-repeat;
 	font-family: Avenir, sans-serif;
     margin-top: 0px;
@@ -101,6 +101,17 @@ main {
   padding: 5px 30px;
   text-decoration: none;
   font-size: 80px;
+}
+
+/*tax calc*/
+
+.taxwrapper{
+    text-align:center;
+
+
+}
+.taxform {
+    display: inline-block;
 }
 
 /* Change the link color to #111 (black) on hover */
