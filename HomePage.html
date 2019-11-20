@@ -17,28 +17,28 @@
             "Our mission is to help young adults better understand the financial issues they will face"
             <p>-some cs kids</p>
             <p>If you have any suggestions for the site or questions, please contact us below:</p>
-            <form class="mainform" name="myForm" action="mailto:somecskids@gmail.com" onsubmit="return validateForm()" method="post" enctype="text/plain">
+            <form class="mainform" name="myForm" action="mailto:somecskids@gmail.com" method="post" enctype="text/plain">
                 <ul class="form-style-1">
                     <li class="inputHeader">Full Name <span class="required">*</span>
                         <br>
-                        <input type="text" name="first name" placeholder="First" required/>
-                        <input type="text" name="last name" placeholder="Last" required/></li>
+                        <input role="type first name" type="text" name="first name" placeholder="First" required/>
+                        <input role="type last name" type="text" name="last name" placeholder="Last" required/></li>
                     <li class="inputHeader">Email<span class="required">*</span>
                         <br>
-                        <input type="email" name="email" placeholder="Email" required/>
+                        <input role="type email" type="email" name="email" placeholder="Email" required/>
                     </li>
                     <li class="inputHeader">Phone Number<span class="required">*</span>
                         <br>
-                        <select name="field4" class="select-field" required>
+                        <select role="select contry code" name="country code" class="select-field" required>
                             <option value="County">County</option>
                             <option value="+1">+1</option>
                             <option value="+52">+52</option>
                         </select>
-                        -       <input type="number" value="" maxlength="4" placeholder="XXX" required/>       -       <input type="number" value="" maxlength="10" placeholder="XXXX" required/></label>
+                        <input role="type 3 digits" name="3 digits" type="number" value="" maxlength="4" placeholder="(XXX)" required/> -  <input role="type 3 digits" name="3 digits" type="number" value="" maxlength="6" placeholder="XXX" required/>       -       <input role="type 4 digits" name="4 digits" type="number" value="" maxlength="10" placeholder="XXXX" required/></label>
                     </li>
                     <li class="inputHeader">Comments<span class="required">*</span>
                         <br>
-                        <input type="comment" name="field5" placeholder="Your Comments" required></input>
+                        <input role="type comment" type="comment" name="field5" placeholder="Your Comments" required></input>
                     </li>
                     <li><input type="submit" value="SUBMIT" />
                     </li>
@@ -48,9 +48,9 @@
     </main>
     <nav class="home-bar">
         <a class="active" href="#home">Home</a>
-        <a href="CreditCard.html">CC Info</a>
-        <a href="TaxCalculator.html">Tax calc</a>
-        <a href="BudgetCalculator.html">Budget calc</a>
+        <a role="click for cc page" href="CreditCard.html">CC Info</a>
+        <a role="click for tax calc" href="TaxCalculator.html">Tax calc</a>
+        <a role="click for budget calc" href="BudgetCalculator.html">Budget calc</a>
     </nav>
 </div>
 </body>
