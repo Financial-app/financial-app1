@@ -17,23 +17,28 @@
             "Our mission is to help young adults better understand the financial issues they will face"
             <p>-some cs kids</p>
             <p>If you have any suggestions for the site or questions, please contact us below:</p>
-            <form class="mainform" action="mailto:somecskids@gmail.com" method="post" enctype="text/plain">
+            <form class="mainform" name="myForm" action="mailto:somecskids@gmail.com" onsubmit="return validateForm()" method="post" enctype="text/plain">
                 <ul class="form-style-1">
                     <li class="inputHeader">Full Name <span class="required">*</span>
                         <br>
-                        <input type="text" name="first name" placeholder="First" />
-                        <input type="text" name="last name" placeholder="Last"/></li>
+                        <input type="text" name="first name" placeholder="First" required/>
+                        <input type="text" name="last name" placeholder="Last" required/></li>
                     <li class="inputHeader">Email<span class="required">*</span>
                         <br>
-                        <input type="email" name="email" placeholder="Email"/>
+                        <input type="email" name="email" placeholder="Email" required/>
                     </li>
                     <li class="inputHeader">Phone Number<span class="required">*</span>
                         <br>
-                        <input type="number" value="" maxlength="4" placeholder="(XXX)"/>       -       <input type="number" value="" maxlength="4" placeholder="XXX" />       -       <input type="number" value="" maxlength="10" placeholder="XXXX"/></label>
+                        <select name="field4" class="select-field" required>
+                            <option value="County">County</option>
+                            <option value="+1">+1</option>
+                            <option value="+52">+52</option>
+                        </select>
+                        -       <input type="number" value="" maxlength="4" placeholder="XXX" required/>       -       <input type="number" value="" maxlength="10" placeholder="XXXX" required/></label>
                     </li>
                     <li class="inputHeader">Comments<span class="required">*</span>
                         <br>
-                        <input type="comment" name="field5" placeholder="Your Comments"></input>
+                        <input type="comment" name="field5" placeholder="Your Comments" required></input>
                     </li>
                     <li><input type="submit" value="SUBMIT" />
                     </li>
