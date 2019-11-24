@@ -60,6 +60,10 @@ main {
     font-style:normal;
 }
 
+.videoname {
+    font-size: 225px;
+}
+
 .homebody ul {
     list-style-type: none;
     padding-left: 0;
@@ -80,9 +84,7 @@ main {
 
 /* Change the link color to #111 (black) on hover */
 
-#embeddedCalc {
-    zoom: 400%;
-}
+
 
 .home-bar{
     background-color: #333;
@@ -132,6 +134,7 @@ main {
     padding-bottom: 20px;
     padding-top: 10px;
 }
+
 
 input[type=text], select {
     display: compact;
