@@ -3,6 +3,8 @@
     <title>Tax Calculator Page Page</title>
     <link rel="stylesheet" type="text/css" href="extras.css" />
     <script src="budgetcalc.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
 </head>
 <body>
     <div>
@@ -18,8 +20,10 @@
                         <li class="inputHeader">Enter Your current Savings ($): <input type="number" value="0" name="savings" id="savings"></li>
                         <li class="inputHeader">Enter Your Weekly Income ($): <input type="number" value="0" name="income" id="income"></li>
                         <li class="inputHeader">Enter Your Weekly Spending ($): <input type="number" value="0" name="spending" id="spending"></li>
-                        <input type="submit" onclick="calculatebudget();" value="Calculate Your Budget!" />
+                        <input type="button" onclick="calculatebudget(); budgetgraph();" value="Calculate Your Budget!" />
                         <p><span id="result"></span></p>
+                        <br><br><br><br>
+                        <div><span id = "chartContainer"></span></div>
                     </ul>
                 </form>
             </div>

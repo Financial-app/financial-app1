@@ -167,8 +167,14 @@ input[type=number], select {
     width: 315px;
     font-size: 40px;
 }
+#savings{
+    margin-left: 57.14px;
+}
+#income{
+    margin-left: 66.27px;
+}
 
-.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+.form-style-1 input[type=button], .form-style-1 input[type=button]{
     background: #673AB7;
     padding: 8px 15px 8px 15px;
     font-size: 70px;
@@ -176,7 +182,7 @@ input[type=number], select {
     height: 100px;
     width: 300px;
 }
-.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+.form-style-1 input[type=button]:hover, .form-style-1 input[type=button]:hover{
     background: #D8BFD8;
     box-shadow:none;
     -moz-box-shadow:none;
@@ -188,15 +194,16 @@ input[type=number], select {
 
 }
 
-.form-style-2 input[type=submit], .form-style-1 input[type=button]{
+.form-style-2 input[type=button], .form-style-1 input[type=button]{
     background: #673AB7;
     padding: 8px 15px 8px 15px;
     font-size: 70px;
     color: #fff;
     height: 100px;
-    width: 300px;
+    width: 320px;
 }
-.form-style-2 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+
+.form-style-2 input[type=button]:hover, .form-style-1 input[type=button]:hover{
     background: #D8BFD8;
     box-shadow:none;
     -moz-box-shadow:none;
@@ -208,4 +215,9 @@ input[type=number], select {
 
 .mainform {
     float: center;
+}
+
+#chartContainer{
+    width: 1230px;
+    height: 975px;
 }
