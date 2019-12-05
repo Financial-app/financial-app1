@@ -46,14 +46,19 @@ function budgetgraph() {
         theme: "light2",
         width: 1225,
         height: 970,
-        pointHoverRadius: 3,
+        pointHoverRadius: 10,
+
+        toolTip:{
+            fontSize: 60,
+            content: "Savings for Month {x} : {y} Dollars",
+        },
 
         title:{
             text: "Your Savings over the Next Year"
         },
         axisY:{
             includeZero: false,
-            title: "Budget",
+            title: "Savings",
             labelFontSize: 50,
             titleFontSize: 70,
 
