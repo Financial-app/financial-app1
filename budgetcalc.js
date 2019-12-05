@@ -46,6 +46,7 @@ function budgetgraph() {
         theme: "light2",
         width: 1225,
         height: 970,
+        pointHoverRadius: 3,
 
         title:{
             text: "Your Savings over the Next Year"
