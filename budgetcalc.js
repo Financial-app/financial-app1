@@ -35,7 +35,7 @@ function budgetgraph() {
     var starting = sv;
     var d = [starting, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     for (i = 1; i < 13; i++){
-        d[i] = d[i-1] + 4*income - 4*sp
+        d[i] = d[i-1] + 4.33*income - 4.33*sp
     }
 
 
@@ -46,16 +46,22 @@ function budgetgraph() {
         theme: "light2",
         width: 1225,
         height: 970,
-        pointHoverRadius: 3,
+
+
+        toolTip:{
+            fontSize: 60,
+            content: "Savings for Month {x} : {y} Dollars",
+        },
 
         title:{
             text: "Your Savings over the Next Year"
         },
         axisY:{
             includeZero: false,
-            title: "Budget",
+            title: "Savings",
             labelFontSize: 50,
             titleFontSize: 70,
+            gridThickness: 5,
 
         },
         axisX:{

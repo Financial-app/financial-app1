@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Tax Calculator Page Page</title>
+    <title>Budget Page Page</title>
     <link rel="stylesheet" type="text/css" href="extras.css" />
     <script src="budgetcalc.js"></script>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
@@ -10,7 +10,7 @@
     <div>
         <header>
             <div class="page-title">
-                <h1>Budget Calculator</h1>
+                <h1>Budget Outlook</h1>
             </div>
         </header>
         <main>
@@ -20,7 +20,7 @@
                         <li class="inputHeader">Enter Your current Savings ($): <input type="number" value="0" name="savings" id="savings"></li>
                         <li class="inputHeader">Enter Your Weekly Income ($): <input type="number" value="0" name="income" id="income"></li>
                         <li class="inputHeader">Enter Your Weekly Spending ($): <input type="number" value="0" name="spending" id="spending"></li>
-                        <input type="button" onclick="calculatebudget(); budgetgraph();" value="Calculate!" />
+                        <input type="button" onclick="calculatebudget(); budgetgraph();" value="Calculate" />
                         <p><span id="result"></span></p>
                         <br><br><br><br><br><br>
                         <div><span id = "chartContainer" width="1225" height="970"></span></div>
@@ -29,10 +29,10 @@
             </div>
         </main>
         <div class="home-bar">
-            <a href="HomePage.html">Home</a>
-            <a href="CreditCard.html">CC Info</a>
-            <a href="Taxcalculator.html">Tax Calc</a>
-            <a class='active' href="#home">Budget Calc</a>
+            <a role="click for home page" href="HomePage.html">Home</a>
+            <a role="click for CC page" href="CreditCard.html">CC Info</a>
+            <a role="click for tax page" href="Taxcalculator.html">Tax Calc</a>
+            <a role="click for budget page" class='active' href="#home">Budget Outlook</a>
         </div>
     </div>
 </body>
